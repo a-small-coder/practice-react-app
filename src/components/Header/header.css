@@ -1,0 +1,132 @@
+
+.header {
+    background-color: white;
+    min-height: 120px;
+    padding-bottom: 60px;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 0;
+}
+
+.menu-block {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.menu-item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #363838E6;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+.logo__wrap {
+    height: 30px;
+    width: 100px;
+}
+.menu-block button {
+    border: none;
+    background: inherit;
+    cursor: pointer;
+}
+
+.burger {
+    width: 37px;
+    height: 29px;
+}
+
+
+.heder-slide {
+    min-height: 772px;
+    display: flex;
+    flex-direction: row;
+    background: url("./assets/symmetry-and-style-PJH3MEU.png") no-repeat top;
+}
+
+.header-slide__figure{
+    margin-left: 160px;
+    margin-bottom: -80px;
+}
+
+.header-slide__content{
+    align-self: center;
+    margin-left: 50px;
+}
+
+.hero-content{
+    max-width: 580px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+._title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 134px;
+    color: #363838;
+}
+
+.hero-content__divider{
+    width: 185px;
+    height: 1px;
+    background-color: #6D7278;
+}
+
+.common-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #5A5A5A;
+}
+
+.slider-header__dots{
+    max-width: 200px;
+    margin: 20px auto 0 auto;
+}
+
+.dots {
+    display: flex;
+    gap:30px;
+}
+
+.dot{
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background: #363838;
+}
+
+.dot._active {
+    background: #FFEF35;;
+}
+
+.dot:hover{
+    cursor: pointer;
+}
+
+.slider-header__dots{
+    padding-top: 20px;
+}
