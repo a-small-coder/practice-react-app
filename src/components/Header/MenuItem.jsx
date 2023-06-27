@@ -1,7 +1,7 @@
 const MenuItem = (props) => {
 
     return (
-        <a class="menu-block__item menu-item" href={`main-site-${props.link}`}>{props.title}</a>
+        <a class="menu-block__item menu-item" href={`${props.link}`}>{props.title}</a>
     )
 }
 

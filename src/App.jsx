@@ -1,10 +1,24 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header/Header'
+import MainPage from './pages/MainPage'
+import CatalogPage from './pages/CatalogPage'
+import AboutPage from './pages/AboutPage'
+import CartPage from './pages/CartPage'
 
 function App() {
 
   return (
-    <Header/>
+    <>
+      <Header/>
+        <Routes>
+          <Route path="/" element={<MainPage/>}/>
+          <Route path="/catalog" element={<CatalogPage/>}/>
+          <Route path="/about" element={<AboutPage/>}/>
+          <Route path="/cart" element={<CartPage/>}/>
+        </Routes>
+    </>
+    
   )
 }
 
