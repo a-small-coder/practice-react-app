@@ -2,9 +2,13 @@ const CartPage = () => {
 
 
     return (
-        <div>
-            im a Cart page
-        </div>
+        <>
+        
+        <Header/>
+            <div>
+            im a Cart Page
+                </div>
+        </>
     )
 }
 

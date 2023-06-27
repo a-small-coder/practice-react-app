@@ -2,9 +2,12 @@ const AboutPage = () => {
 
 
     return (
-        <div>
-            im a About page
-        </div>
+       <>
+        <Header/>
+            <div>
+            im a About Page
+                </div>
+       </>
     )
 }
 
