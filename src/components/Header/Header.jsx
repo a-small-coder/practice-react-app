@@ -3,13 +3,14 @@ import logo from '../../assets/logo (1).png'
 import img2 from '../../assets/icon_menu.svg'
 
 import MenuItem from './MenuItem'
+import links from '../../data'
 
 function Header() {
     const menuLinksLeft = [
         {
             id: 1,
             title: "home",
-            link: "/"
+            link: links[0].link
         },
         {
             id: 2,
@@ -39,7 +40,11 @@ function Header() {
         />
     ))
     const menuItemsLeft = menuLinksLeft.map( (l) => (
-        <a key={l.id} class="menu-block__item menu-item" href={l.link}>{l.title}</a>
+        <MenuItem
+            key={l.id}
+            title={l.title}
+            link={l.link}
+        />
     ))
     return (
         <header>

@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom"
+
 const MenuItem = (props) => {
 
     return (
-        <a class="menu-block__item menu-item" href={`${props.link}`}>{props.title}</a>
+        <Link class="menu-block__item menu-item" to={`${props.link}`}>{props.title}</Link>
     )
 }
 
