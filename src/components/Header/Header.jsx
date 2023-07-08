@@ -9,8 +9,8 @@ function Header() {
     const menuLinksLeft = [
         {
             id: 1,
-            title: "home",
-            link: links[0].link
+            title: "about",
+            link: "/about-page"
         },
         {
             id: 2,

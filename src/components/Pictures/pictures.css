@@ -1,0 +1,64 @@
+.pictures_container{
+    text-align: center;
+    padding:80px 0 90px;   
+}
+.BR{
+    margin: 0 13px; 
+    background-color: transparent;
+    border: 1px solid #454647 ;
+    border-radius: 20px ;
+    padding: 6px 16px;
+    color:#8F8D8D;
+    cursor: pointer;
+  }
+  .LRF{
+    margin: 0 13px; 
+    background-color: transparent;
+    border: 1px solid #454647 ;
+    border-radius: 20px ;
+    padding: 6px 16px;
+    color:#8F8D8D;
+    cursor: pointer;
+  }
+  .OF{
+    margin: 0 13px; 
+    background-color: transparent;
+    border: 1px solid #454647 ;
+    border-radius: 20px ;
+    padding: 6px 16px;
+    color:#8F8D8D;
+    cursor: pointer;
+  }
+  .DRF{
+      margin: 0 13px; 
+      background-color: transparent;
+      border: 1px solid #454647 ;
+      border-radius: 20px ;
+      padding: 6px 16px;
+      color:#8F8D8D;
+      cursor: pointer;
+    }
+  
+    .Chair_upperword{
+      margin: 0 13px; 
+      background-color: transparent;
+      border: 1px solid #454647 ;
+      border-radius: 20px ;
+      padding: 6px 16px;
+      color:#8F8D8D;
+      cursor: pointer;
+    }
+  
+    .gallery_items{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: repeat(2,1fr);
+      grid-gap:30px 50px;
+      width: 100%;
+      
+    }
+    .gallery_item:first-child{
+      padding:20px;
+      grid-column: span 2;
+      grid-row: span 2;
+  }
